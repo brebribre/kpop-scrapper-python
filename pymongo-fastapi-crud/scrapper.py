@@ -8,6 +8,8 @@ hrefs = r.html.find('div.container > div.row > div.col > div.indexes > div.box >
 
 
 href_attrs = [a.attrs['href'] for a in hrefs]
+
+
 #   get all group relative links
 group_links = []
 for a in hrefs:
